@@ -24,7 +24,6 @@ spec:
               memory: 512Mi
   version: '12.0'
   barURL:
-  - https://github.com/aleiamp/vpoc/raw/main/1.0.1/API-test2.bar
   configurations:
     - git-barauth
   flowType:

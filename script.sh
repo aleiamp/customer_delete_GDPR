@@ -18,7 +18,7 @@ echo "URL created: $url"
 yaml_file="bar.yaml"
 
 # Modify the YAML file using sed
-sed -i  "s|barURL:.*|barURL:\n  - $url|g" "$yaml_file"
+sed -i  "s|barURL:.*|barURL:\n    - $url|g" "$yaml_file"
 
 echo "YAML file modified with new URL:"
 cat "$yaml_file"
