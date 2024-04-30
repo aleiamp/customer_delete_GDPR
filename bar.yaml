@@ -3,7 +3,7 @@ kind: IntegrationRuntime
 metadata:
   labels:
     backup.appconnect.ibm.com/component: integrationruntime
-  name: customer_delete_GDPR
+  name: customer-delete-GDPR
   namespace: cp4i
 spec:
   license:
