@@ -11,7 +11,7 @@ bar_file=$(find "$latest_version" -type f -name "*.bar")
 echo "BAR file found: $bar_file"
 
 # Task 3: Create the URL
-url="https://github.com/aleiamp/vpoc/raw/main/$bar_file"
+url="https://github.com/aleiamp/customer_delete_GDPR/raw/main/$bar_file"
 echo "URL created: $url"
 
 # Task 4: Modify the YAML file
