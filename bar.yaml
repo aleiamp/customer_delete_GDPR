@@ -25,6 +25,8 @@ spec:
   version: '12.0'
   barURL:
   configurations:
+    - voda-poc
+    - statistics-server-conf
     - git-barauth
   flowType:
     designerAPIFlow: true
